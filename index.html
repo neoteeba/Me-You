@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For My Best Friend and Future Soulmate</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #fce4ec; /* Light pink background */
             color: #4a148c; /* Purple text color */
             text-align: center;
+            padding: 20px;
         }
         .container {
-            margin: 20px auto; /* Center content and add spacing */
+            max-width: 600px; /* Limit width for better readability */
+            margin: 0 auto; /* Center content horizontally */
+            background-color: #fff; /* White background */
             padding: 20px;
-            background-color: #fff; /* White background for content */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
         }
+        .image-container {
+            margin-bottom: 20px; /* Space between image containers */
+        }
         .fun-fact {
-            font-style: italic;
             margin-top: 10px;
+            font-style: italic;
         }
         .hello-kitty {
             position: absolute;
-            top: 20px;
-            left: 20px;
-            transform: rotate(-10deg); /* Rotate Hello Kitty image slightly */
+            top: 10px;
+            left: 10px;
+            max-width: 100px; /* Adjust size as needed */
         }
         .scooby-doo {
             position: absolute;
-            bottom: 20px;
-            right: 20px;
-            transform: rotate(10deg); /* Rotate Scooby Doo image slightly */
+            bottom: 10px;
+            right: 10px;
+            max-width: 100px; /* Adjust size as needed */
         }
         .button-container {
             margin-top: 20px;
@@ -46,6 +50,8 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
         }
         .air-kiss-button:hover {
             background-color: #f50057; /* Darker pink on hover */
@@ -57,36 +63,43 @@
         <h1>For My Best Friend and Future Soulmate</h1>
         <p>най-малкото, което мога да направя за теб <3.</p>
         
-        <!-- Images and fun facts -->
+        <!-- First Image and Fun Fact -->
         <div class="image-container">
-            <img src="https://imgur.com/a/OdGZZVD" alt="Image 1">
+            <img src="https://i.imgur.com/QC2NQf2.jpg" alt="Image 1">
             <p class="fun-fact">Fun Fact: The best looking girl in the world!</p>
         </div>
 
+        <!-- Second Image and Fun Fact -->
         <div class="image-container">
-            <img src="https://imgur.com/a/TWYeIHk" alt="Image 2">
+            <img src="https://i.imgur.com/Tm2rLdR.jpg" alt="Image 2">
             <p class="fun-fact">Second Fun Fact: I really think she likes Scooby-Doo!</p>
         </div>
 
+        <!-- Third Image and Fun Fact -->
         <div class="image-container">
-            <img src="https://imgur.com/a/dy5Cuni" alt="Image 3">
+            <img src="https://i.imgur.com/s1A0FJ0.jpg" alt="Image 3">
             <p class="fun-fact">Third Fun Fact: The first bg-mc future marriage, that won't end with blood and broken teeth on the floor.</p>
         </div>
 
-        <!-- Hello Kitty images -->
-        <img src="https://imgur.com/a/HelloKitty1" alt="Hello Kitty 1" class="hello-kitty">
-        <img src="https://imgur.com/a/HelloKitty2" alt="Hello Kitty 2" class="hello-kitty">
-        <img src="https://imgur.com/a/HelloKitty3" alt="Hello Kitty 3" class="hello-kitty">
+        <!-- Hello Kitty Images -->
+        <img src="https://i.imgur.com/gdr8uxs.jpg" alt="Hello Kitty 1" class="hello-kitty">
+        <img src="https://i.imgur.com/KHIn70D.jpg" alt="Hello Kitty 2" class="hello-kitty">
+        <img src="https://i.imgur.com/rx0htC5.jpg" alt="Hello Kitty 3" class="hello-kitty">
 
-        <!-- Button for air kiss -->
+        <!-- Button for Instagram Link -->
         <div class="button-container">
             <a href="https://www.instagram.com/n_lxvsk/" class="air-kiss-button">Click here to see</a>
         </div>
-    </div>
+        
+        <!-- Button for Air Kiss -->
+        <div class="button-container">
+            <button class="air-kiss-button">Click here for air kiss</button>
+        </div>
 
-    <!-- Link to the game -->
-    <div class="button-container">
-        <a href="https://triviador.com/">Play the game here - still can beat you anytime of the day :DDD</a>
+        <!-- Link to the game -->
+        <div class="button-container">
+            <p><a href="https://triviador.com/">Play the game here - still can beat you anytime of the day :DDD</a></p>
+        </div>
     </div>
 </body>
 </html>
